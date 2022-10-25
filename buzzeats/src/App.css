@@ -1,0 +1,57 @@
+
+.restaurantContainer{
+    /* display: flex; */
+    margin: auto;
+    max-width: 80%;
+    /* width: fit-content; */
+    /* margin-top: -100px; */
+    z-index: 999;
+    text-align: center;
+}
+.darkness{
+    /* background-color: black; For browsers that do not support gradients */
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0));
+    height: 10%;
+    position: absolute;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+}
+
+.homepageButton{
+    width: 18vw;
+    max-width: 160px;
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 17px;
+    background-color: #AD9C63;
+    border: 0;
+    color: white;
+    border: 2px solid #6c613e;
+    /* font-weight: bold; */
+}
+
+
+.diningImage{
+    width: 100%;
+    /* filter: brightness(60%); */
+    /* /* position: absolute;
+    top: 0; */
+    z-index: -1;
+    /* box-shadow: 0px 5px 10px 1px rgba(0,0,0,0.2); */
+  /* -ms-interpolation-mode: bicubic; */
+}
+
+.mainTitle{
+    font-size: 8vw;
+    color: white;
+}
+
+
+.titleAndButtonContainer{
+    position: absolute;
+    z-index: 999;
+    top: 10%;
+    left: 10%;
+}

@@ -1,19 +1,21 @@
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
+import Container from "react-bootstrap/Container";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
+import NavDropdown from "react-bootstrap/NavDropdown";
+import Form from "react-bootstrap/Form";
+import Button from "react-bootstrap/Button";
+import "./NavBar.css"
 import { Outlet, Link } from "react-router-dom";
 
-function BasicExample() {
+function NavBar() {
   return (
-    <>
-    <Navbar bg="light" expand="lg">
+    <Navbar expand="md" className="NavBar" scrolling fixed="top">
       <Container>
-        <Navbar.Brand href="#home">Buzz Eats</Navbar.Brand>
+        <Navbar.Brand href="#home">BuzzEats </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link>
+          <Nav.Link>
               <Link to="" style={{color: "gray", textDecoration: "none"}}>Home</Link>
             </Nav.Link>
             <Nav.Link>
@@ -31,12 +33,19 @@ function BasicExample() {
               </NavDropdown.Item>
             </NavDropdown>
           </Nav>
+          <Form className="d-flex">
+            <Form.Control
+              type="search"
+              placeholder="Search"
+              className="me-2"
+              aria-label="Search"
+            />
+            <Button variant="outline-success">Search</Button>
+          </Form>
         </Navbar.Collapse>
       </Container>
     </Navbar>
-    <Outlet/>
-    </>
   );
 }
 
-export default BasicExample;
+export default NavBar;
