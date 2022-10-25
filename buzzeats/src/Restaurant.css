@@ -1,0 +1,71 @@
+
+
+.restaurant {  display: inline-grid;
+    border: 1px solid rgb(200, 200, 200);
+    width: 360px;
+    height: 180px;
+    margin: 20px;
+    vertical-align: middle;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 3.5fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "topleft right"
+      "bottomleft right";
+  }
+  
+  .right { grid-area: right; }
+  
+  .topleft { grid-area: topleft; }
+  
+  .bottomleft { grid-area: bottomleft; }
+  
+.restaurant:hover{
+    cursor: pointer;
+    background-color: #EEEEEE;
+}
+
+.restaurantName{
+    font-size: 22px;
+    text-align: center;
+}
+.restaurantImage{
+    display: block;
+    max-width: 180px;
+    max-height: 130px;
+    /* max-height: 70%; */
+    margin: auto;
+    text-align: center;
+    position: relative;
+top: 50%;
+transform: translateY(-50%);
+}
+.star{
+    width: 20px;
+    height: 20px
+}
+
+.open{
+    position: relative;
+    top: 55%;
+    transform: translateY(-50%);
+    margin: auto;
+    display: inline-block;
+    text-align: center;
+    font-size: 25px;
+    background-color: rgba(175, 219, 169, 0.844);
+    border-radius: 10px;
+    border: 1px solid green;
+    padding: 7px 20px 3px 20px;
+    font-weight: bold;
+    color: darkgreen
+}
+
+.untilText{
+    font-size: 15px;
+    font-weight: normal;
+}
