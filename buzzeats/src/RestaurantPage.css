@@ -1,0 +1,39 @@
+.restaurantPage{
+    position: absolute;
+
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%);
+    margin: auto;
+    max-width: 900px;
+    width: 50%;
+    height: auto;
+    background-color: white;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.cover{
+    width: 100%;
+    position: fixed;
+    height: 100%;
+    z-index: 4;
+    background-color: rgba(0,0,0,0.3);
+}
+
+.closeButton{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    border: none;
+    background-color: transparent;
+    font-size: 30px;
+}
+
+.closeButton:hover{
+    color: darkred;
+}
+
+.image{
+    width:200px
+}

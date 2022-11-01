@@ -5,7 +5,7 @@
     max-width: 80%;
     /* width: fit-content; */
     /* margin-top: -100px; */
-    z-index: 999;
+    z-index: 1;
     text-align: center;
 }
 .darkness{
@@ -14,7 +14,7 @@
     height: 10%;
     position: absolute;
     top: 0;
-    z-index: 999;
+    z-index: 3;
     width: 100%;
 }
 
@@ -51,12 +51,23 @@
 
 .titleAndButtonContainer{
     position: absolute;
-    z-index: 999;
+    z-index: 1;
     top: 10%;
     left: 10%;
 }
 
 .searchBar{
     border-radius: 5px;
-    margin-right: 12px;
+}
+
+.fadeIn{
+    opacity:1;
+    transition: opacity 0.5s;
+    width: 100%;
+}
+
+.fadeOut{
+    opacity:0;
+    width: 0;
+    transition: opacity 0.5s;
 }
