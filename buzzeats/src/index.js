@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import AboutUs from "./AboutUs";
+import FoodMap from "./FoodMap";
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -15,6 +16,7 @@ root.render(
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/aboutus" element={<AboutUs />} />
+        <Route path="/map" element={<FoodMap />} />
       </Routes>
     </BrowserRouter>
    </React.StrictMode>

@@ -33,6 +33,7 @@ function App() {
       
       <button className="homepageButton" onClick={() => myRef.current.scrollIntoView()}>Restaurants</button>
       <button className="homepageButton" onClick={() => navigate("/aboutus")}>About Us</button>  
+      <button className="homepageButton" onClick={() => navigate("/map")}>Map</button> 
       </div>
       </div>
 
