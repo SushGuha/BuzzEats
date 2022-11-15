@@ -4,6 +4,7 @@ import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
 import './FoodMap.css';
 
 function FoodMap() {
+    
   return (
      <MapContainer center = { [ 33.747, -84.387 ] }
          zoom = { 13 }
