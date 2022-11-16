@@ -18,6 +18,7 @@ function App() {
   const [showCover, setShowCover] = useState(false);
   const [data, setData] = useState({});
   const [nameFilter, setNameFilter] = useState('');
+  console.log(firebase)
   return (
     <div style={{marginBottom: "600px"}}>
       {showCover && (
@@ -48,5 +49,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
