@@ -7,7 +7,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import AboutUs from "./AboutUs";
 import FoodMap from "./FoodMap";
-
+import CreatePost from "./createpost";
+import Login from "./login";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -17,6 +18,8 @@ root.render(
         <Route path="/" element={<App />} />
         <Route path="/aboutus" element={<AboutUs />} />
         <Route path="/map" element={<FoodMap />} />
+        <Route path="/createpost" element={<CreatePost />} />
+        <Route path="/login" element={<Login/>} />
       </Routes>
     </BrowserRouter>
    </React.StrictMode>
