@@ -3,7 +3,6 @@ import { useRef } from "react";
 import HeroImg from "./HeroImg";
 import "./AboutUsStyles.css";
 import CardsMembers from "./CardMembers";
-import img0 from "../src/gtwebdev01.jpeg"
 
 function AboutUs() {
     const myRef = useRef(null)
