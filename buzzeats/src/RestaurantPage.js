@@ -13,8 +13,14 @@ function RestaurantPage(props) {
                 <button className='closeButton' onClick={() => hideCover()}>X</button>
                 <Stars className="stars" rating={data.rating}></Stars>
                 <img src={data.link} alt={data.name} className="image"></img>
-                <p>{data.location}</p>` `
-                <img src={data.hours} alt="hours"></img>
+                <p>{data.location}</p>
+                <p>Sunday: {data.hours.sunday}<br></br>
+                Monday: {data.hours.monday}<br></br>
+                Tuesday: {data.hours.tuesday}<br></br>
+                Wednesday: {data.hours.wednesday}<br></br>
+                Thursday: {data.hours.thursday}<br></br>
+                Friday: {data.hours.friday}<br></br>
+                Saturday: {data.hours.saturday}</p>
                 <button onClick={() => window.location.href = data.menu}>Menu</button>
                 <p>Phone: {data.contact.phone}</p>
                 <p>Email: {data.contact.email}</p>
