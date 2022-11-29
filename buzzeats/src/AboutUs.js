@@ -43,18 +43,18 @@ function AboutUs() {
             </section>
         
             <div class="flexbox-container0">
-                <div><CardsMembers name="Sushant Guha" description="A 3rd year CmpE student at GT passionate about web and software development." imagee={img0}/></div>
+                <div><CardsMembers name="Sushant Guha" description="A 3rd year CmpE student at GT passionate about web and software development." imagee="https://brand.gatech.edu/sites/default/files/inline-images/GTVertical_RGB.png"/></div>
             </div>
             <div class="flexbox-container1">
-                <div><CardsMembers name="Mehdi Bencheqroun" description="test" imagee={img0}/></div>
-                <div><CardsMembers name="Asmita Karandikar" description="test" imagee={img0}/></div>
-                <div><CardsMembers name="Joao Pedro Amaral Bonchristiano" description="test" imagee={img0}/></div>
+                <div><CardsMembers name="Mehdi Bencheqroun" description="test" imagee="https://brand.gatech.edu/sites/default/files/inline-images/GTVertical_RGB.png"/></div>
+                <div><CardsMembers name="Asmita Karandikar" description="test" imagee="https://brand.gatech.edu/sites/default/files/inline-images/GTVertical_RGB.png"/></div>
+                <div><CardsMembers name="Joao Pedro Amaral Bonchristiano" description="test" imagee="https://brand.gatech.edu/sites/default/files/inline-images/GTVertical_RGB.png"/></div>
             </div>
 
             <div class="flexbox-container2">
-                <div><CardsMembers name="Zini Chakraborty" description="test" imagee={img0}/></div>
-                <div><CardsMembers name="Daiwik Pal" description="test" imagee={img0}/></div>
-                <div><CardsMembers name="Rishi Manchanpalli" description="test" imagee={img0}/></div>
+                <div><CardsMembers name="Zini Chakraborty" description="test" imagee="https://brand.gatech.edu/sites/default/files/inline-images/GTVertical_RGB.png"/></div>
+                <div><CardsMembers name="Daiwik Pal" description="test" imagee="https://brand.gatech.edu/sites/default/files/inline-images/GTVertical_RGB.png"/></div>
+                <div><CardsMembers name="Rishi Manchanpalli" description="test" imagee="https://brand.gatech.edu/sites/default/files/inline-images/GTVertical_RGB.png"/></div>
             </div>
         </div>
         
