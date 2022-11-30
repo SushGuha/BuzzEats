@@ -3,340 +3,467 @@
     "name": "Sideways Cafe",
     "link": "https://dining.gatech.edu/sites/default/files/styles/large/public/2022-02/Dining_BlueDonkey.png?itok=z12JFKfX",
     "rating": "5",
-    "location": "420, 69th St, NW, Atlanta, GA, 42069",
-    "hours": "https://i.imgur.com/Z9SPUcj.jpg",
-    "menu": "https://www.amaidessertlounge.com/menus",
-    "gmaps": "",
-    "cuisine": "desert",
-    "contact": {
-      "phone": "(470)737-6413",
-      "email": "theamaidessertlounge@gmail.com"
+    "location": "Price Gilbert Memorial Library, 704 Cherry St NW,Atlanta, GA 30313",
+    "hours": {
+      "sunday": [9, 21],
+      "monday": [7, 22],
+      "tuesday": [7, 22],
+      "wednesday": [7, 22],
+      "thursday": [7, 22],
+      "friday": [7, 22],
+      "saturday": [9, 17]
     },
-    "descr": "100% Plant-Based Desserts"
+    "menu": "https://www.bluedonkeycoffee.com/icedcoffeeoverview",
+    "gmaps": "https://www.google.com/maps/place/Price+Gilbert+Memorial+Library/@33.7743675,-84.3978308,17z/data=!3m1!4b1!4m5!3m4!1s0x88f504620c8d89ad:0x6b68813b275ea210!8m2!3d33.7743675!4d-84.3956421",
+    "cuisine": "cafe",
+    "contact": {
+      "phone": "(678) 561-0138",
+      "email": "info@bluedonkeycoffee.com"
+    },
+    "descr": "Specialty micro-roasted coffee"
   },
   {
     "name": "Slutty Vegan",
     "link": "https://dining.gatech.edu/sites/default/files/styles/large/public/2021-11/Logos_SluttyVegan.png?itok=esU4FXca",
     "rating": "5",
-    "location": "420, 69th St, NW, Atlanta, GA, 42069",
-    "hours": "https://i.imgur.com/Z9SPUcj.jpg",
-    "menu": "https://www.amaidessertlounge.com/menus",
-    "gmaps": "",
-    "cuisine": "desert",
-    "contact": {
-      "phone": "(470)737-6413",
-      "email": "theamaidessertlounge@gmail.com"
+    "location": "Tech Green, 266 4th St NW, Atlanta, GA 30313",
+    "hours": {
+      "sunday": "closed",
+      "monday": "closed",
+      "tuesday": "closed",
+      "wednesday": [11, 14],
+      "thursday": "closed",
+      "friday": "closed",
+      "saturday": "closed"
     },
-    "descr": "100% Plant-Based Desserts"
+    "menu": "https://sluttyveganatl.com/#menu",
+    "gmaps": "https://www.google.com/maps/place/Tech+Green/@33.7744734,-84.3979261,18.95z/data=!4m 5!3m4!1s0x88f50489ec1c461b:0x2d7e31c7758e29b3!8m2!3d33.7746156!4d-84.3973354",
+    "cuisine": "burgers",
+    "contact": {
+      "phone": "(678) 846-3255",
+      "email": "contactus@sluttyveganatl.com"
+    },
+    "descr": "Vibrant, trendy, vegan fast food"
   },
   {
     "name": "Test Kitchen",
     "link": "https://dining.gatech.edu/sites/default/files/styles/large/public/2022-08/TD_Test-Kitchen-Logo_FINAL.jpg?itok=S4tarDXI",
     "rating": "5",
-    "location": "420, 69th St, NW, Atlanta, GA, 42069",
-    "hours": "https://i.imgur.com/Z9SPUcj.jpg",
-    "menu": "https://www.amaidessertlounge.com/menus",
-    "gmaps": "",
-    "cuisine": "desert",
-    "contact": {
-      "phone": "(470)737-6413",
-      "email": "theamaidessertlounge@gmail.com"
+    "location": "351 Ferst Drive NW, Atlanta, GA 30332",
+    "hours": {
+      "sunday": "closed",
+      "monday": [11, 16],
+      "tuesday": [11, 16],
+      "wednesday": [11, 16],
+      "thursday": [11, 16],
+      "friday": [11, 15],
+      "saturday": "closed"
     },
-    "descr": "100% Plant-Based Desserts"
+    "menu": "https://techdining.nutrislice.com/menu/test-kitchen",
+    "gmaps": "https://www.google.com/maps/place/351+Ferst+Dr+NW,+Atlanta,+GA+30313/@33.7737213,-84.3985944,17z/data=!3m1!4b1!4m5!3m4!1s0x88f505b7084f0c0b:0xf38ea4f12745c210!8m2!3d33.7737213!4d-84.3985944",
+    "cuisine": "american",
+    "contact": { "phone": "(404) 894-2788", "email": "" },
+    "descr": "Mindful food options"
   },
   {
     "name": "The Dive",
     "link": "https://dining.gatech.edu/sites/default/files/styles/large/public/2022-09/Dive%20800x600.jpg?itok=Up9Nuuv8",
     "rating": "5",
-    "location": "420, 69th St, NW, Atlanta, GA, 42069",
-    "hours": "https://i.imgur.com/Z9SPUcj.jpg",
-    "menu": "https://www.amaidessertlounge.com/menus",
-    "gmaps": "",
-    "cuisine": "desert",
-    "contact": {
-      "phone": "(470)737-6413",
-      "email": "theamaidessertlounge@gmail.com"
+    "location": "Georgia Tech Campus Recreation Center, Ferst Drive,Atlanta, GA",
+    "hours": {
+      "sunday": "closed",
+      "monday": [8, 14],
+      "tuesday": [8, 14],
+      "wednesday": [8, 14],
+      "thursday": [8, 14],
+      "friday": [8, 14],
+      "saturday": "closed"
     },
-    "descr": "100% Plant-Based Desserts"
+    "menu": "https://dining.gatech.edu/dive-menu",
+    "gmaps": "https://www.google.com/maps/place/Georgia+Tech+Campus+Recreation+Center/@33.7755602,-84.4057538,17z/data=!3m2!4b1!5s0x88f5048e8477a003:0x2ac3afeb179a7ccf!4m5!3m4!1s0x88f50462e828b3e3:0xe680271917f19e92!8m2!3d33.7755602!4d-84.4035651",
+    "cuisine": "cafe",
+    "contact": { "phone": "", "email": "" },
+    "descr": "Post-work out refuel stop"
   },
   {
     "name": "The Fresh Truck",
     "link": "https://dining.gatech.edu/sites/default/files/styles/large/public/2021-11/Logos_TheFreshTruck.png?itok=A_dNMBk3",
     "rating": "5",
-    "location": "420, 69th St, NW, Atlanta, GA, 42069",
-    "hours": "https://i.imgur.com/Z9SPUcj.jpg",
-    "menu": "https://www.amaidessertlounge.com/menus",
-    "gmaps": "",
-    "cuisine": "desert",
-    "contact": {
-      "phone": "(470)737-6413",
-      "email": "theamaidessertlounge@gmail.com"
+    "location": "Tech Green, 266 4th St NW, Atlanta, GA 30313",
+    "hours": {
+      "sunday": "closed",
+      "monday": "closed",
+      "tuesday": "closed",
+      "wednesday": "closed",
+      "thursday": "closed",
+      "friday": "closed",
+      "saturday": "closed"
     },
-    "descr": "100% Plant-Based Desserts"
+    "menu": "https://freshtruckatl.com/",
+    "gmaps": "https://www.google.com/maps/place/Tech+Green/@33.7746156,-84.3995241,17z/data=!3m1!4b1!4m5!3m4!1s0x88f50489ec1c461b:0x2d7e31c7758e29b3!8m2!3d33.7746156!4d-84.3973354",
+    "cuisine": "sandwiches",
+    "contact": { "phone": "(404) 377-4875", "email": "" },
+    "descr": "Heartyand healthy items"
   },
   {
     "name": "The Whistle Bistro",
     "link": "https://dining.gatech.edu/sites/default/files/styles/large/public/2022-09/Whistle%20Bistro%20800x600.jpg?itok=ol77xxtg",
     "rating": "5",
-    "location": "420, 69th St, NW, Atlanta, GA, 42069",
-    "hours": "https://i.imgur.com/Z9SPUcj.jpg",
-    "menu": "https://www.amaidessertlounge.com/menus",
-    "gmaps": "",
-    "cuisine": "desert",
-    "contact": {
-      "phone": "(470)737-6413",
-      "email": "theamaidessertlounge@gmail.com"
+    "location": "Bradley Building, North Ave NW, Atlanta, GA30332",
+    "hours": {
+      "sunday": "closed",
+      "monday": [7, 15],
+      "tuesday": [7, 15],
+      "wednesday": [7, 15],
+      "thursday": [7, 15],
+      "friday": [7, 15],
+      "saturday": "closed"
     },
-    "descr": "100% Plant-Based Desserts"
+    "menu": "https://dining.gatech.edu/whistle-bistro-menu",
+    "gmaps": "https://www.google.com/maps/place/A.+French+Building/@33.7729158,-84.3956722,18z/data=!3m1!4b1!4m5!3m4!1s0x88f505f642cb2193:0x71f35f19947bd2ad!8m2!3d33.7729158!4d-84.3945779",
+    "cuisine": "sandwiches",
+    "contact": { "phone": "(404) 894-2000", "email": "" },
+    "descr": "Quick bite to go, or relax and dine"
   },
   {
     "name": "Brittain Dining Hall",
     "link": "https://dining.gatech.edu/sites/default/files/styles/large/public/2022-09/Brittain%20800x600.jpg?itok=ITSJ0X8W",
     "rating": "5",
-    "location": "420, 69th St, NW, Atlanta, GA, 42069",
-    "hours": "https://i.imgur.com/Z9SPUcj.jpg",
-    "menu": "https://www.amaidessertlounge.com/menus",
-    "gmaps": "",
-    "cuisine": "desert",
-    "contact": {
-      "phone": "(470)737-6413",
-      "email": "theamaidessertlounge@gmail.com"
+    "location": "Brittain Dining Hall, 649 Techwood Dr NW, Atlanta, GA30330",
+    "hours": {
+      "sunday": "closed",
+      "monday": [7, 22],
+      "tuesday": [7, 22],
+      "wednesday": [7, 22],
+      "thursday": [7, 22],
+      "friday": [7, 22],
+      "saturday": "closed"
     },
-    "descr": "100% Plant-Based Desserts"
+    "menu": "https://techdining.nutrislice.com/menu/brittain",
+    "gmaps": "https://www.google.com/maps/place/Brittain+Dining+Hall/@33.7724628,-84.3934609,17z/data=!3m1!4b1!4m5!3m4!1s0x88f504637f47618f:0xf4a56542c551e71!8m2!3d33.7724451!4d-84.3913914",
+    "cuisine": "all-you-can-eat",
+    "contact": { "phone": "(404) 894-2383", "email": "" },
+    "descr": "All-you-care-to-eat experience"
   },
   {
     "name": "North Ave Dining Hall",
     "link": "https://dining.gatech.edu/sites/default/files/styles/large/public/2022-09/North%20Avenue%20800x600.jpg?itok=kNwEo1NX",
     "rating": "5",
-    "location": "420, 69th St, NW, Atlanta, GA, 42069",
-    "hours": "https://i.imgur.com/Z9SPUcj.jpg",
-    "menu": "https://www.amaidessertlounge.com/menus",
-    "gmaps": "",
-    "cuisine": "desert",
-    "contact": {
-      "phone": "(470)737-6413",
-      "email": "theamaidessertlounge@gmail.com"
+    "location": "120 North Avenue NW, Atlanta, GA30313",
+    "hours": {
+      "sunday": [9, 21],
+      "monday": [7, 22],
+      "tuesday": [7, 22],
+      "wednesday": [7, 22],
+      "thursday": [7, 22],
+      "friday": [7, 22],
+      "saturday": [9, 21]
     },
-    "descr": "100% Plant-Based Desserts"
+    "menu": "https://techdining.nutrislice.com/m/north-ave-dining-hall",
+    "gmaps": "https://www.google.com/maps/place/North+Ave+Dining+Hall/@33.7704062,-84.3920794,18.15z/data=!4m13!1m7!3m6!1s0x88f50464aa0ffbdb:0x2361ddbc341aa024!2s120+North+Avenue+NW,+Atlanta,+GA+30313!3b1!8m2!3d33.7700703!4d-84.390978!3m4!1s0x88f50463425fe343:0xd55f66fbdb48371e!8m2!3d33.7710465!4d-84.3915456",
+    "cuisine": "all-you-can-eat",
+    "contact": { "phone": "(404) 894-2383", "email": "" },
+    "descr": "all-you-care-to-eat LEED Certified dining hall"
   },
   {
     "name": "West Village Dining Commons",
     "link": "https://dining.gatech.edu/sites/default/files/styles/large/public/2022-09/West%20Village%20800x600.jpg?itok=eFe_ryBc",
     "rating": "5",
-    "location": "420, 69th St, NW, Atlanta, GA, 42069",
-    "hours": "https://i.imgur.com/Z9SPUcj.jpg",
-    "menu": "https://www.amaidessertlounge.com/menus",
-    "gmaps": "",
-    "cuisine": "desert",
-    "contact": {
-      "phone": "(470)737-6413",
-      "email": "theamaidessertlounge@gmail.com"
+    "location": "532 8th St NW, Atlanta, GA 30318",
+    "hours": {
+      "sunday": [9, 21],
+      "monday": [7, 22],
+      "tuesday": [7, 22],
+      "wednesday": [7, 22],
+      "thursday": [7, 22],
+      "friday": [7, 22],
+      "saturday": [9, 21]
     },
-    "descr": "100% Plant-Based Desserts"
+    "menu": "https://techdining.nutrislice.com/m/west-village",
+    "gmaps": "https://www.google.com/maps/place/West+Village+Dining+Commons/@33.7795374,-84.404705,17z/data=!3m2!4b1!5s0x88f5048d053818ed:0x8a7fda14b0eb7591!4m5!3m4!1s0x88f5048d04e41b7b:0xd2c8a705747914a4!8m2!3d33.7795374!4d-84.404705",
+    "cuisine": "all-you-can-eat",
+    "contact": { "phone": "(404) 894-2383", "email": "" },
+    "descr": "All-you-care-to-eat fare"
   },
   {
     "name": "Panda Express",
     "link": "https://dining.gatech.edu/sites/default/files/styles/large/public/2022-09/Logo_Lockup.jpg?itok=J4zUsNx5",
     "rating": "5",
-    "location": "420, 69th St, NW, Atlanta, GA, 42069",
-    "hours": "https://i.imgur.com/Z9SPUcj.jpg",
-    "menu": "https://www.amaidessertlounge.com/menus",
-    "gmaps": "",
-    "cuisine": "desert",
-    "contact": {
-      "phone": "(470)737-6413",
-      "email": "theamaidessertlounge@gmail.com"
+    "location": "351 Ferst Drive NW, Atlanta, GA 30332",
+    "hours": {
+      "sunday": [11, 17],
+      "monday": [10.5, 21],
+      "tuesday": [10.5, 22],
+      "wednesday": [10.5, 22],
+      "thursday": [10.5, 22],
+      "friday": [10.5, 19],
+      "saturday": [11, 17]
     },
-    "descr": "100% Plant-Based Desserts"
+    "menu": "https://www.pandaexpress.com/",
+    "gmaps": "https://www.google.com/maps/place/351+Ferst+Dr+NW,+Atlanta,+GA+30313/@33.7737213,-84.4007884,17z/data=!3m1!4b1!4m5!3m4!1s0x88f505b7084f0c0b:0xf38ea4f12745c210!8m2!3d33.7737213!4d-84.3985944",
+    "cuisine": "chinese",
+    "contact": { "phone": "(404) 894-2788", "email": "" },
+    "descr": "Traditional Chinese favorites"
   },
   {
     "name": "Twisted Taco",
     "link": "https://dining.gatech.edu/sites/default/files/styles/dining_location/public/2022-09/Twisted%20Taco%20800x600.jpg?itok=DM1ryb63",
     "rating": "5",
-    "location": "420, 69th St, NW, Atlanta, GA, 42069",
-    "hours": "https://i.imgur.com/Z9SPUcj.jpg",
-    "menu": "https://www.amaidessertlounge.com/menus",
-    "gmaps": "",
-    "cuisine": "desert",
-    "contact": {
-      "phone": "(470)737-6413",
-      "email": "theamaidessertlounge@gmail.com"
+    "location": "350 Ferst Dr, Atlanta, GA 30332",
+    "hours": {
+      "sunday": "closed",
+      "monday": [7, 19],
+      "tuesday": [7, 19],
+      "wednesday": [7, 19],
+      "thursday": [7, 19],
+      "friday": [7, 19],
+      "saturday": "closed"
     },
-    "descr": "100% Plant-Based Desserts"
+    "menu": "https://irp.cdn-website.com/d303ec29/files/uploaded/GA%20Tech%2008082022.pdf",
+    "gmaps": "https://www.google.com/maps/place/Twisted+Taco/@33.7746697,-84.4019568,15z/data=!4m2!3m1!1s0x0:0x54e2fb6576b0eee6?sa=X&ved=2ahUKEwj3ja2U7J_7AhX5M1kFHWYyA_AQ_BJ6BAhuEAg",
+    "cuisine": "mexican",
+    "contact": {
+      "phone": "(404) 894-2788",
+      "email": "twistedtacofranchise@gmail.com"
+    },
+    "descr": "Specializes in made-to-order California style burritos, sizzling skillet fajitas, homemade salsas and of course, the famous “Twisted Tacos”."
   },
   {
     "name": "Wreck Stop",
     "link": "https://dining.gatech.edu/sites/default/files/styles/dining_location/public/2022-09/Wreck%20Stop%20800x600.jpg?itok=cLoh4r9G",
     "rating": "5",
-    "location": "420, 69th St, NW, Atlanta, GA, 42069",
-    "hours": "https://i.imgur.com/Z9SPUcj.jpg",
-    "menu": "https://www.amaidessertlounge.com/menus",
-    "gmaps": "",
-    "cuisine": "desert",
-    "contact": {
-      "phone": "(470)737-6413",
-      "email": "theamaidessertlounge@gmail.com"
+    "location": "532 8th St NW, Atlanta, GA 30318",
+    "hours": {
+      "sunday": "closed",
+      "monday": [9, 16],
+      "tuesday": [9, 16],
+      "wednesday": [9, 16],
+      "thursday": [9, 16],
+      "friday": [9, 16],
+      "saturday": "closed"
     },
-    "descr": "100% Plant-Based Desserts"
+    "menu": "https://dining.gatech.edu/wreck-stop-menu",
+    "gmaps": "",
+    "cuisine": "",
+    "contact": { "phone": "(404) 894-2383", "email": "" },
+    "descr": "Convenient to-go items and the basics you need on the way home."
   },
   {
     "name": "5th District Deli",
     "link": "https://dining.gatech.edu/sites/default/files/styles/dining_location/public/2022-08/TD_5th-District-Deli-Logo_FINAL.jpg?itok=fPUcNV7t",
     "rating": "5",
-    "location": "420, 69th St, NW, Atlanta, GA, 42069",
-    "hours": "https://i.imgur.com/Z9SPUcj.jpg",
-    "menu": "https://www.amaidessertlounge.com/menus",
-    "gmaps": "",
-    "cuisine": "desert",
-    "contact": {
-      "phone": "(470)737-6413",
-      "email": "theamaidessertlounge@gmail.com"
+    "location": "",
+    "hours": {
+      "sunday": "closed",
+      "monday": [10.5, 16],
+      "tuesday": [10.5, 16],
+      "wednesday": [10.5, 16],
+      "thursday": [10.5, 16],
+      "friday": [10.5, 15],
+      "saturday": "closed"
     },
-    "descr": "100% Plant-Based Desserts"
+    "menu": "",
+    "gmaps": "",
+    "cuisine": "",
+    "contact": { "phone": "(404) 894-2383", "email": "" },
+    "descr": ""
   },
   {
     "name": "Bento Sushi",
     "link": "https://dining.gatech.edu/sites/default/files/styles/dining_location/public/2022-08/BentoSushi_Logo_RGB.png?itok=Bd703HZI",
     "rating": "5",
-    "location": "420, 69th St, NW, Atlanta, GA, 42069",
-    "hours": "https://i.imgur.com/Z9SPUcj.jpg",
-    "menu": "https://www.amaidessertlounge.com/menus",
-    "gmaps": "",
-    "cuisine": "desert",
-    "contact": {
-      "phone": "(470)737-6413",
-      "email": "theamaidessertlounge@gmail.com"
+    "location": "",
+    "hours": {
+      "sunday": "closed",
+      "monday": [10.5, 16],
+      "tuesday": [10.5, 16],
+      "wednesday": [10.5, 16],
+      "thursday": [10.5, 16],
+      "friday": [10.5, 15],
+      "saturday": "closed"
     },
-    "descr": "100% Plant-Based Desserts"
+    "menu": "",
+    "gmaps": "",
+    "cuisine": "",
+    "contact": { "phone": "", "email": "" },
+    "descr": ""
   },
   {
     "name": "Blue Donkey - John Lewis Student Center",
     "link": "https://dining.gatech.edu/sites/default/files/styles/dining_location/public/2022-08/Blue%20Donkey%20Logo.png?itok=gobrCOHJ",
     "rating": "5",
-    "location": "420, 69th St, NW, Atlanta, GA, 42069",
-    "hours": "https://i.imgur.com/Z9SPUcj.jpg",
-    "menu": "https://www.amaidessertlounge.com/menus",
-    "gmaps": "",
-    "cuisine": "desert",
-    "contact": {
-      "phone": "(470)737-6413",
-      "email": "theamaidessertlounge@gmail.com"
+    "location": "",
+    "hours": {
+      "sunday": "closed",
+      "monday": [10.5, 16],
+      "tuesday": [10.5, 16],
+      "wednesday": [10.5, 16],
+      "thursday": [10.5, 16],
+      "friday": [10.5, 15],
+      "saturday": "closed"
     },
-    "descr": "100% Plant-Based Desserts"
+    "menu": "",
+    "gmaps": "",
+    "cuisine": "",
+    "contact": { "phone": "", "email": "" },
+    "descr": ""
   },
   {
     "name": "Brain Freeze",
     "link": "https://dining.gatech.edu/sites/default/files/styles/dining_location/public/2022-08/TD_Brain-Freeze-Logo_FINAL.jpg?itok=odIM3JVR",
     "rating": "5",
-    "location": "420, 69th St, NW, Atlanta, GA, 42069",
-    "hours": "https://i.imgur.com/Z9SPUcj.jpg",
-    "menu": "https://www.amaidessertlounge.com/menus",
-    "gmaps": "",
-    "cuisine": "desert",
-    "contact": {
-      "phone": "(470)737-6413",
-      "email": "theamaidessertlounge@gmail.com"
+    "location": "",
+    "hours": {
+      "sunday": "closed",
+      "monday": [10.5, 16],
+      "tuesday": [10.5, 16],
+      "wednesday": [10.5, 16],
+      "thursday": [10.5, 16],
+      "friday": [10.5, 15],
+      "saturday": "closed"
     },
-    "descr": "100% Plant-Based Desserts"
+    "menu": "",
+    "gmaps": "",
+    "cuisine": "",
+    "contact": { "phone": "", "email": "" },
+    "descr": ""
   },
   {
     "name": "Brittain Dining Hall",
     "link": "https://dining.gatech.edu/sites/default/files/styles/large/public/2022-09/Brittain%20800x600.jpg?itok=ITSJ0X8W",
     "rating": "5",
-    "location": "420, 69th St, NW, Atlanta, GA, 42069",
-    "hours": "https://i.imgur.com/Z9SPUcj.jpg",
-    "menu": "https://www.amaidessertlounge.com/menus",
-    "gmaps": "",
-    "cuisine": "desert",
-    "contact": {
-      "phone": "(470)737-6413",
-      "email": "theamaidessertlounge@gmail.com"
+    "location": "",
+    "hours": {
+      "sunday": "closed",
+      "monday": [7, 22],
+      "tuesday": [7, 22],
+      "wednesday": [7, 22],
+      "thursday": [7, 22],
+      "friday": [7, 22],
+      "saturday": "closed"
     },
-    "descr": "100% Plant-Based Desserts"
+    "menu": "",
+    "gmaps": "",
+    "cuisine": "",
+    "contact": { "phone": "", "email": "" },
+    "descr": ""
   },
   {
     "name": "Campus Crust",
     "link": "https://dining.gatech.edu/sites/default/files/styles/dining_location/public/2022-09/Campus%20Crust%20800x600.jpg?itok=3WoWPWQw",
     "rating": "5",
-    "location": "420, 69th St, NW, Atlanta, GA, 42069",
-    "hours": "https://i.imgur.com/Z9SPUcj.jpg",
-    "menu": "https://www.amaidessertlounge.com/menus",
-    "gmaps": "",
-    "cuisine": "desert",
-    "contact": {
-      "phone": "(470)737-6413",
-      "email": "theamaidessertlounge@gmail.com"
+    "location": "",
+    "hours": {
+      "sunday": "closed",
+      "monday": [10.5, 16],
+      "tuesday": [10.5, 16],
+      "wednesday": [10.5, 16],
+      "thursday": [10.5, 16],
+      "friday": [10.5, 15],
+      "saturday": "closed"
     },
-    "descr": "100% Plant-Based Desserts"
+    "menu": "",
+    "gmaps": "",
+    "cuisine": "",
+    "contact": { "phone": "", "email": "" },
+    "descr": ""
   },
   {
     "name": "Chick-fil-A",
     "link": "https://dining.gatech.edu/sites/default/files/styles/dining_location/public/2022-08/CFA_ScriptLogo_Outlined_Red_PMS.jpg?itok=t_MOAA99",
     "rating": "5",
-    "location": "420, 69th St, NW, Atlanta, GA, 42069",
-    "hours": "https://i.imgur.com/Z9SPUcj.jpg",
-    "menu": "https://www.amaidessertlounge.com/menus",
-    "gmaps": "",
-    "cuisine": "desert",
-    "contact": {
-      "phone": "(470)737-6413",
-      "email": "theamaidessertlounge@gmail.com"
+    "location": "",
+    "hours": {
+      "sunday": "closed",
+      "monday": [10.5, 16],
+      "tuesday": [10.5, 16],
+      "wednesday": [10.5, 16],
+      "thursday": [10.5, 16],
+      "friday": [10.5, 15],
+      "saturday": "closed"
     },
-    "descr": "100% Plant-Based Desserts"
+    "menu": "",
+    "gmaps": "",
+    "cuisine": "",
+    "contact": { "phone": "", "email": "" },
+    "descr": ""
   },
   {
     "name": "Gyro Chef Mediterranean Truck",
     "link": "https://dining.gatech.edu/sites/default/files/styles/dining_location/public/2022-09/Gyro%20Chef.png?itok=V_DM4UiL",
     "rating": "5",
-    "location": "420, 69th St, NW, Atlanta, GA, 42069",
-    "hours": "https://i.imgur.com/Z9SPUcj.jpg",
-    "menu": "https://www.amaidessertlounge.com/menus",
-    "gmaps": "",
-    "cuisine": "desert",
-    "contact": {
-      "phone": "(470)737-6413",
-      "email": "theamaidessertlounge@gmail.com"
+    "location": "",
+    "hours": {
+      "sunday": "closed",
+      "monday": [11, 16],
+      "tuesday": [11, 16],
+      "wednesday": "closed",
+      "thursday": [11, 16],
+      "friday": [11, 16],
+      "saturday": "closed"
     },
-    "descr": "100% Plant-Based Desserts"
+    "menu": "",
+    "gmaps": "",
+    "cuisine": "",
+    "contact": { "phone": "", "email": "" },
+    "descr": ""
   },
   {
     "name": "Tech It To Go",
     "link": "https://dining.gatech.edu/sites/default/files/styles/dining_location/public/2022-09/TD_Tech-It-ToGo_FINAL.jpg?itok=reuXp-E5",
     "rating": "5",
-    "location": "420, 69th St, NW, Atlanta, GA, 42069",
-    "hours": "https://i.imgur.com/Z9SPUcj.jpg",
-    "menu": "https://www.amaidessertlounge.com/menus",
-    "gmaps": "",
-    "cuisine": "desert",
-    "contact": {
-      "phone": "(470)737-6413",
-      "email": "theamaidessertlounge@gmail.com"
+    "location": "",
+    "hours": {
+      "sunday": "closed",
+      "monday": [10.5, 16],
+      "tuesday": [10.5, 16],
+      "wednesday": "closed",
+      "thursday": "closed",
+      "friday": "closed",
+      "saturday": "closed"
     },
-    "descr": "100% Plant-Based Desserts"
+    "menu": "",
+    "gmaps": "",
+    "cuisine": "",
+    "contact": { "phone": "", "email": "" },
+    "descr": ""
   },
   {
     "name": "There Burger Bar",
     "link": "https://dining.gatech.edu/sites/default/files/styles/dining_location/public/2022-09/There%20Burger%20Bar%20800x600.jpg?itok=gVZb6dya",
     "rating": "5",
-    "location": "420, 69th St, NW, Atlanta, GA, 42069",
-    "hours": "https://i.imgur.com/Z9SPUcj.jpg",
-    "menu": "https://www.amaidessertlounge.com/menus",
-    "gmaps": "",
-    "cuisine": "desert",
-    "contact": {
-      "phone": "(470)737-6413",
-      "email": "theamaidessertlounge@gmail.com"
+    "location": "",
+    "hours": {
+      "sunday": "closed",
+      "monday": [10.5, 16],
+      "tuesday": [10.5, 16],
+      "wednesday": [10.5, 16],
+      "thursday": [10.5, 16],
+      "friday": [10.5, 15],
+      "saturday": "closed"
     },
-    "descr": "100% Plant-Based Desserts"
+    "menu": "",
+    "gmaps": "",
+    "cuisine": "",
+    "contact": { "phone": "", "email": "" },
+    "descr": ""
   },
   {
     "name": "Amai Dessert",
     "link": "https://dining.gatech.edu/sites/default/files/styles/dining_location/public/2022-02/logo-amai%20transparent.png?itok=AXUBjLdu",
     "rating": "5",
     "location": "420, 69th St, NW, Atlanta, GA, 42069",
-    "hours": "https://i.imgur.com/Z9SPUcj.jpg",
+    "hours": {
+      "sunday": "closed",
+      "monday": [10.5, 16],
+      "tuesday": [10.5, 16],
+      "wednesday": [10.5, 16],
+      "thursday": [10.5, 16],
+      "friday": [10.5, 15],
+      "saturday": "closed"
+    },
     "menu": "https://www.amaidessertlounge.com/menus",
-    "gmaps": "",
+    "gmaps": "https://www.google.com/maps/place/Tech+Green/@33.7746156,-84.3995241,17z/data=!3m1!4b1!4m5!3m4!1s0x88f50489ec1c461b:0x2d7e31c7758e29b3!8m2!3d33.7746156!4d-84.3973354",
     "cuisine": "desert",
     "contact": {
       "phone": "(470)737-6413",
@@ -348,135 +475,180 @@
     "name": "Bento Bus",
     "link": "https://dining.gatech.edu/sites/default/files/styles/dining_location/public/2022-08/bento_bus_cross_logo%5B74%5D.jpg?itok=tr6hr23I",
     "rating": "5",
-    "location": "420, 69th St, NW, Atlanta, GA, 42069",
-    "hours": "https://i.imgur.com/Z9SPUcj.jpg",
-    "menu": "https://www.amaidessertlounge.com/menus",
-    "gmaps": "",
-    "cuisine": "desert",
-    "contact": {
-      "phone": "(470)737-6413",
-      "email": "theamaidessertlounge@gmail.com"
+    "location": "",
+    "hours": {
+      "sunday": "closed",
+      "monday": [10.5, 16],
+      "tuesday": [10.5, 16],
+      "wednesday": [10.5, 16],
+      "thursday": [10.5, 16],
+      "friday": [10.5, 15],
+      "saturday": "closed"
     },
-    "descr": "100% Plant-Based Desserts"
+    "menu": "",
+    "gmaps": "",
+    "cuisine": "",
+    "contact": { "phone": "", "email": "" },
+    "descr": ""
   },
   {
     "name": "Cluck N Mooh",
     "link": "https://dining.gatech.edu/sites/default/files/styles/dining_location/public/2021-09/cnmlogo.jpg?itok=fpzSvooc",
     "rating": "5",
-    "location": "420, 69th St, NW, Atlanta, GA, 42069",
-    "hours": "https://i.imgur.com/Z9SPUcj.jpg",
-    "menu": "https://www.amaidessertlounge.com/menus",
-    "gmaps": "",
-    "cuisine": "desert",
-    "contact": {
-      "phone": "(470)737-6413",
-      "email": "theamaidessertlounge@gmail.com"
+    "location": "",
+    "hours": {
+      "sunday": "closed",
+      "monday": [10.5, 16],
+      "tuesday": [10.5, 16],
+      "wednesday": [10.5, 16],
+      "thursday": [10.5, 16],
+      "friday": [10.5, 15],
+      "saturday": "closed"
     },
-    "descr": "100% Plant-Based Desserts"
+    "menu": "",
+    "gmaps": "",
+    "cuisine": "",
+    "contact": { "phone": "", "email": "" },
+    "descr": ""
   },
   {
     "name": "Gold & Bold Coffee Roasters",
     "link": "https://dining.gatech.edu/sites/default/files/styles/dining_location/public/2022-04/Light-Background-PNG.png?itok=Yz4OsuYl",
     "rating": "5",
-    "location": "420, 69th St, NW, Atlanta, GA, 42069",
-    "hours": "https://i.imgur.com/Z9SPUcj.jpg",
-    "menu": "https://www.amaidessertlounge.com/menus",
-    "gmaps": "",
-    "cuisine": "desert",
-    "contact": {
-      "phone": "(470)737-6413",
-      "email": "theamaidessertlounge@gmail.com"
+    "location": "",
+    "hours": {
+      "sunday": "closed",
+      "monday": [10.5, 16],
+      "tuesday": [10.5, 16],
+      "wednesday": [10.5, 16],
+      "thursday": [10.5, 16],
+      "friday": [10.5, 15],
+      "saturday": "closed"
     },
-    "descr": "100% Plant-Based Desserts"
+    "menu": "",
+    "gmaps": "",
+    "cuisine": "",
+    "contact": { "phone": "", "email": "" },
+    "descr": ""
   },
   {
     "name": "Gyro Chef Mediterranean Food Truck",
     "link": "https://dining.gatech.edu/sites/default/files/styles/dining_location/public/2022-08/Gyro%20Chef.png?itok=HWIMu5LN",
     "rating": "5",
-    "location": "420, 69th St, NW, Atlanta, GA, 42069",
-    "hours": "https://i.imgur.com/Z9SPUcj.jpg",
-    "menu": "https://www.amaidessertlounge.com/menus",
-    "gmaps": "",
-    "cuisine": "desert",
-    "contact": {
-      "phone": "(470)737-6413",
-      "email": "theamaidessertlounge@gmail.com"
+    "location": "",
+    "hours": {
+      "sunday": "closed",
+      "monday": [10.5, 16],
+      "tuesday": [10.5, 16],
+      "wednesday": [10.5, 16],
+      "thursday": [10.5, 16],
+      "friday": [10.5, 15],
+      "saturday": "closed"
     },
-    "descr": "100% Plant-Based Desserts"
+    "menu": "",
+    "gmaps": "",
+    "cuisine": "",
+    "contact": { "phone": "", "email": "" },
+    "descr": ""
   },
   {
     "name": "Kaldi's Coffee",
     "link": "https://dining.gatech.edu/sites/default/files/styles/dining_location/public/2022-09/Kaldi%27s%20800x600.jpg?itok=fDOp7K0B",
     "rating": "5",
-    "location": "420, 69th St, NW, Atlanta, GA, 42069",
-    "hours": "https://i.imgur.com/Z9SPUcj.jpg",
-    "menu": "https://www.amaidessertlounge.com/menus",
-    "gmaps": "",
-    "cuisine": "desert",
-    "contact": {
-      "phone": "(470)737-6413",
-      "email": "theamaidessertlounge@gmail.com"
+    "location": "",
+    "hours": {
+      "sunday": "closed",
+      "monday": [10.5, 16],
+      "tuesday": [10.5, 16],
+      "wednesday": [10.5, 16],
+      "thursday": [10.5, 16],
+      "friday": [10.5, 15],
+      "saturday": "closed"
     },
-    "descr": "100% Plant-Based Desserts"
+    "menu": "",
+    "gmaps": "",
+    "cuisine": "",
+    "contact": { "phone": "", "email": "" },
+    "descr": ""
   },
   {
     "name": "Love at Wurst Sight",
     "link": "https://dining.gatech.edu/sites/default/files/styles/dining_location/public/2022-02/Love%20at%20Wurst%20Sight.png?itok=6gMoptjN",
     "rating": "5",
-    "location": "420, 69th St, NW, Atlanta, GA, 42069",
-    "hours": "https://i.imgur.com/Z9SPUcj.jpg",
-    "menu": "https://www.amaidessertlounge.com/menus",
-    "gmaps": "",
-    "cuisine": "desert",
-    "contact": {
-      "phone": "(470)737-6413",
-      "email": "theamaidessertlounge@gmail.com"
+    "location": "",
+    "hours": {
+      "sunday": "closed",
+      "monday": [10.5, 16],
+      "tuesday": [10.5, 16],
+      "wednesday": [10.5, 16],
+      "thursday": [10.5, 16],
+      "friday": [10.5, 15],
+      "saturday": "closed"
     },
-    "descr": "100% Plant-Based Desserts"
+    "menu": "",
+    "gmaps": "",
+    "cuisine": "",
+    "contact": { "phone": "", "email": "" },
+    "descr": ""
   },
   {
     "name": "Parlay Savory Saloon",
     "link": "https://dining.gatech.edu/sites/default/files/styles/dining_location/public/2022-01/Parlay%20Logo.png?itok=DCCryxqg",
     "rating": "5",
-    "location": "420, 69th St, NW, Atlanta, GA, 42069",
-    "hours": "https://i.imgur.com/Z9SPUcj.jpg",
-    "menu": "https://www.amaidessertlounge.com/menus",
-    "gmaps": "",
-    "cuisine": "desert",
-    "contact": {
-      "phone": "(470)737-6413",
-      "email": "theamaidessertlounge@gmail.com"
+    "location": "",
+    "hours": {
+      "sunday": "closed",
+      "monday": [10.5, 16],
+      "tuesday": [10.5, 16],
+      "wednesday": [10.5, 16],
+      "thursday": [10.5, 16],
+      "friday": [10.5, 15],
+      "saturday": "closed"
     },
-    "descr": "100% Plant-Based Desserts"
+    "menu": "",
+    "gmaps": "",
+    "cuisine": "",
+    "contact": { "phone": "", "email": "" },
+    "descr": ""
   },
   {
     "name": "popbar",
     "link": "https://dining.gatech.edu/sites/default/files/styles/dining_location/public/2022-08/popbar-logo-e1553728137841.png?itok=jRmPBHU9",
     "rating": "5",
-    "location": "420, 69th St, NW, Atlanta, GA, 42069",
-    "hours": "https://i.imgur.com/Z9SPUcj.jpg",
-    "menu": "https://www.amaidessertlounge.com/menus",
-    "gmaps": "",
-    "cuisine": "desert",
-    "contact": {
-      "phone": "(470)737-6413",
-      "email": "theamaidessertlounge@gmail.com"
+    "location": "",
+    "hours": {
+      "sunday": "closed",
+      "monday": [10.5, 16],
+      "tuesday": [10.5, 16],
+      "wednesday": [10.5, 16],
+      "thursday": [10.5, 16],
+      "friday": [10.5, 15],
+      "saturday": "closed"
     },
-    "descr": "100% Plant-Based Desserts"
+    "menu": "",
+    "gmaps": "",
+    "cuisine": "",
+    "contact": { "phone": "", "email": "" },
+    "descr": ""
   },
   {
     "name": "Rising Roll Gourmet Cafe",
     "link": "https://dining.gatech.edu/sites/default/files/styles/dining_location/public/2022-09/Rising%20Roll%20800x600.jpg?itok=h5vo-L24",
     "rating": "5",
-    "location": "420, 69th St, NW, Atlanta, GA, 42069",
-    "hours": "https://i.imgur.com/Z9SPUcj.jpg",
-    "menu": "https://www.amaidessertlounge.com/menus",
-    "gmaps": "",
-    "cuisine": "desert",
-    "contact": {
-      "phone": "(470)737-6413",
-      "email": "theamaidessertlounge@gmail.com"
+    "location": "403 4th St NE #215 Suite 115, Atlanta, GA 30308",
+    "hours": {
+      "sunday": "closed",
+      "monday": [10.5, 16],
+      "tuesday": [10.5, 16],
+      "wednesday": [10.5, 16],
+      "thursday": [10.5, 16],
+      "friday": [10.5, 15],
+      "saturday": "closed"
     },
-    "descr": "100% Plant-Based Desserts"
+    "menu": "",
+    "gmaps": "",
+    "cuisine": "",
+    "contact": { "phone": "", "email": "" },
+    "descr": ""
   }
 ]
