@@ -63,6 +63,16 @@ function FoodMap() {
             <h2>Sideways Cafe</h2>
           </Popup>
         </Marker>
+        <Marker position={[33.77829, -84.39795]} icon={markerIcon}>
+          <Popup>
+            <h2>Test Kitchen</h2>
+          </Popup>
+        </Marker>
+        <Marker position={[33.7757, -84.404243]} icon={markerIcon}>
+          <Popup>
+            <h2>The Dive</h2>
+          </Popup>
+        </Marker>
       </MapContainer>
     </div>
   );

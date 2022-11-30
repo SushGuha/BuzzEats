@@ -1,43 +1,111 @@
-import React from 'react';
+import { useNavigate } from "react-router-dom";
+import { useRef } from "react";
+import HeroImg from "./HeroImg";
+import "./AboutUsStyles.css";
+import CardsMembers from "./CardMembers";
 
 function AboutUs() {
-	return (
-		<div>
+  const myRef = useRef(null);
+  const navigate = useNavigate();
+  return (
+    <div>
+      <HeroImg />
 
-			<section class="section">
-				<div class="box-main">
-					<div class="firstHalf">
-						<h1 class="text-big" style = {{display: 'flex', alignItems: 'center', justifyContent: 'center', height: '15vh'}}>
-							About Us
-						</h1>
-						<p class="text-small" style = {{display: 'flex', marginLeft: '60px', marginRight: '60px', height: '3vh', alignItems: 'center'}}>
-							BuzzEats is a review system built specifically for Georgia Tech dining services. 
-							Through BuzzEats, students can view dining hours for Georgia Tech dining as well as 
-							ratings and reviews. BuzzEats makes it easier for Georgia Tech students to view 
-							dining options and see dining reviews and hours. We aim to make Georgia Tech dining
-							more efficient.
-						</p>
-					</div>
-				</div>
-			</section>
-			<section class="section">
-				<div class="box-main">
-					<div class="secondHalf">
-						<h1 class="text-big" style = {{display: 'flex', alignItems: 'center', justifyContent: 'center', height: '12vh'}}>
-							The Team
-						</h1>
-						<p class="text-small" style = {{display: 'flex', marginLeft: '60px', marginRight: '60px', height: '3vh', alignItems: 'center'}}>
-							Team Lead: Sushant Guha
-						</p>
-						<p class="text-small" style = {{display: 'flex', marginLeft: '60px', marginRight: '60px', height: '1vh', alignItems: 'center'}}>
-							Team Members: Zini Chakraborty, Daiwik Pal, Asmita Karandikar, 
-							Joao Pedro Amaral Bonchristiano, Rishi Manchanpalli, Mehdi Bencheqroun
-						</p>
-					</div>
-				</div>
-			</section>
-		</div>
-	)
+      <section className="section">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-12 text-center">
+              <h3 className="main-heading">About us</h3>
+              <div className="underline mx-auto"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="titleAndButtonContainer">
+        <h1 className="mainTitle">BuzzEats</h1>
+        <button className="homepageButton" onClick={() => navigate("/")}>
+          Restaurants
+        </button>
+        <button
+          className="homepageButton"
+          onClick={() => myRef.current.scrollIntoView()}
+        >
+          About Us
+        </button>
+      </div>
+      <section class="section">
+        <div class="box-main">
+          <div class="firstHalf">
+            <p class="text-small1">
+              BuzzEats is a review system built specifically for Georgia Tech
+              dining services. Through BuzzEats, students can view dining hours
+              for Georgia Tech dining as well as ratings and reviews. BuzzEats
+              makes it easier for Georgia Tech students to view dining options
+              and see dining reviews and hours. We aim to make Georgia Tech
+              dining more efficient.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* <div class="flexbox-container0"></div> */}
+      <div class="flexbox-container1">
+        <div>
+          <CardsMembers
+            name="Sushant Guha"
+            description="Passionate Web Developer."
+            imagee="https://brand.gatech.edu/sites/default/files/inline-images/GTVertical_RGB.png"
+          />
+        </div>
+        <div>
+          <CardsMembers
+            name="Mehdi Bencheqroun"
+            description="Passionate Web Developer"
+            imagee="https://brand.gatech.edu/sites/default/files/inline-images/GTVertical_RGB.png"
+          />
+        </div>
+        <div>
+          <CardsMembers
+            name="Asmita Karandikar"
+            description="Passionate Web Developer"
+            imagee="https://brand.gatech.edu/sites/default/files/inline-images/GTVertical_RGB.png"
+          />
+        </div>
+        <div>
+          <CardsMembers
+            name="Joao Pedro Amaral Bonchristiano"
+            description="Passionate Web Developer"
+            imagee="https://brand.gatech.edu/sites/default/files/inline-images/GTVertical_RGB.png"
+          />
+        </div>
+      </div>
+
+      <div class="flexbox-container2">
+        <div>
+          <CardsMembers
+            name="Zini Chakraborty"
+            description="Passionate Web Developer"
+            imagee="https://brand.gatech.edu/sites/default/files/inline-images/GTVertical_RGB.png"
+          />
+        </div>
+        <div>
+          <CardsMembers
+            name="Daiwik Pal"
+            description="Passionate Web Developer"
+            imagee="https://brand.gatech.edu/sites/default/files/inline-images/GTVertical_RGB.png"
+          />
+        </div>
+        <div>
+          <CardsMembers
+            name="Rishi Manchanpalli"
+            description="Passionate Web Developer"
+            imagee="https://brand.gatech.edu/sites/default/files/inline-images/GTVertical_RGB.png"
+          />
+        </div>
+      </div>
+    </div>
+  );
 }
 
 export default AboutUs;
